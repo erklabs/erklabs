@@ -2,9 +2,8 @@
   import "../app.css";
 </script>
 
-<!-- basic html menu -->
-
-<main class="container">
+<!-- wrapper for the website -->
+<header class="container">
   <nav>
     <ul>
         <li>
@@ -20,5 +19,16 @@
       <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
+</header>
+
+<main class="container">
   <slot />
 </main>
+
+<footer class="container">
+  This is the footer.
+</footer>
+
+<style>
+
+</style>

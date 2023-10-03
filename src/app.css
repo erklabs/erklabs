@@ -8,6 +8,12 @@ html {
   background-color: #000814;
 }
 
+/* position footer on the bottom of the page */
+html,
+body {
+  height: 100%;
+}
+
 a {
   color: #ffd60a;
   text-decoration: none;
@@ -17,7 +23,7 @@ h1 {
   font-size: 60px;
 }
 
-#eliza{
-    max-width: 100px;
-    width: 100px; 
+#eliza {
+  max-width: 100px;
+  width: 100px;
 }
